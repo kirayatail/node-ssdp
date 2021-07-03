@@ -1,7 +1,7 @@
 var dgram   = require("dgram");
 var util    = require("util");
 var events  = require("events");
-var _       = require("underscore");
+var _       = require("lodash");
 var ip      = require("ip");
 
 const SSDP_PORT = 1900;
